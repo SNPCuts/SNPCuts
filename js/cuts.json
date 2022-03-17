@@ -1,0 +1,194 @@
+{
+  "Aberdeen": {
+    "original": 385,
+    "now": 362,
+    "totalCut": 23,
+    "population": 227560
+  },
+  "Aberdeenshire": {
+    "original": 478,
+    "now": 466,
+    "totalCut": 12,
+    "population": 261470
+  },
+  "Angus": {
+    "original": 238,
+    "now": 223,
+    "totalCut": 15,
+    "population": 116040
+  },
+  "Argyll & Bute": {
+    "original": 246,
+    "now": 208,
+    "totalCut": 38,
+    "population": 86260
+  },
+  "Clackmannanshire": {
+    "original": 112,
+    "now": 102,
+    "totalCut": 10,
+    "population": 51400
+  },
+  "Dumfries and Galloway": {
+    "original": 346,
+    "now": 311,
+    "totalCut": 35,
+    "population": 148790
+  },
+  "Dundee": {
+    "original": 343,
+    "now": 315,
+    "totalCut": 28,
+    "population": 148750
+  },
+  "East Ayrshire": {
+    "original": 266,
+    "now": 250,
+    "totalCut": 16,
+    "population": 121840
+  },
+  "East Dunbartonshire": {
+    "original": 213,
+    "now": 205,
+    "totalCut": 8,
+    "population": 108330
+  },
+  "East Lothian": {
+    "original": 199,
+    "now": 190,
+    "totalCut": 9,
+    "population": 105790
+  },
+  "East Renfrewshire": {
+    "original": 206,
+    "now": 196,
+    "totalCut": 11,
+    "population": 95170
+  },
+  "Edinburgh": {
+    "original": 879,
+    "now": 816,
+    "totalCut": 63,
+    "population": 518500
+  },
+  "Eilean Siar": {
+    "original": 124,
+    "now": 99,
+    "totalCut": 24,
+    "population": 26830
+  },
+  "Falkirk": {
+    "original": 326,
+    "now": 305,
+    "totalCut": 21,
+    "population": 160340
+  },
+  "Fife": {
+    "original": 745,
+    "now": 708,
+    "totalCut": 37,
+    "population": 371910
+  },
+  "Glasgow": {
+    "original": "1,490.00",
+    "now": "1,308.00",
+    "totalCut": 182,
+    "population": 626410
+  },
+  "Highland": {
+    "original": 536,
+    "now": 491,
+    "totalCut": 45,
+    "population": 235540
+  },
+  "Inverclyde": {
+    "original": 198,
+    "now": 177,
+    "totalCut": 22,
+    "population": 78150
+  },
+  "Midlothian": {
+    "original": 178,
+    "now": 175,
+    "totalCut": 3,
+    "population": 91340
+  },
+  "Moray": {
+    "original": 182,
+    "now": 177,
+    "totalCut": 5,
+    "population": 95520
+  },
+  "North Ayrshire": {
+    "original": 316,
+    "now": 294,
+    "totalCut": 21,
+    "population": 135280
+  },
+  "North Lanarkshire": {
+    "original": 737,
+    "now": 670,
+    "totalCut": 67,
+    "population": 340180
+  },
+  "Orkney": {
+    "original": 82,
+    "now": 68,
+    "totalCut": 13,
+    "population": 22190
+  },
+  "Perth & Kinross": {
+    "original": 291,
+    "now": 278,
+    "totalCut": 13,
+    "population": 151290
+  },
+  "Renfrewshire": {
+    "original": 367,
+    "now": 340,
+    "totalCut": 27,
+    "population": 177790
+  },
+  "the Scottish Borders": {
+    "original": 244,
+    "now": 228,
+    "totalCut": 16,
+    "population": 115270
+  },
+  "Shetland": {
+    "original": 104,
+    "now": 78,
+    "totalCut": 26,
+    "population": 22990
+  },
+  "South Ayrshire": {
+    "original": 237,
+    "now": 222,
+    "totalCut": 15,
+    "population": 112550
+  },
+  "South Lanarkshire": {
+    "original": 667,
+    "now": 609,
+    "totalCut": 58,
+    "population": 319020
+  },
+  "Stirling": {
+    "original": 195,
+    "now": 184,
+    "totalCut": 11,
+    "population": 94330
+  },
+  "West Dunbartonshire": {
+    "original": 224,
+    "now": 200,
+    "totalCut": 24,
+    "population": 89130
+  },
+  "West Lothian": {
+    "original": 358,
+    "now": 345,
+    "totalCut": 13,
+    "population": 182140
+  }
+}
