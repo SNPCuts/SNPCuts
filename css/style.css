@@ -131,7 +131,7 @@ font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
 }
 
 body {
-  background: url('http://127.0.0.1:8887/img/spikes.png');
+  background: url('https://robinwilde.github.io/snpcuts/img/spikes.png');
   background-size: auto 100%;
   background-attachment: fixed;
   background-repeat: repeat;
@@ -139,7 +139,7 @@ body {
 
 @media only screen and (min-width: 1460px) {
   body {
-    background: url('http://127.0.0.1:8887/img/spikes.png');
+    background: url('https://robinwilde.github.io/snpcuts/img/spikes.png');
     background-size: auto 100%;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -152,7 +152,7 @@ body {
 
 @media only screen and (max-width: 1459px) {
   body {
-    background: url('http://127.0.0.1:8887/img/spikes.png');
+    background: url('https://robinwilde.github.io/snpcuts/img/spikes.png');
     background-size: auto 100%;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -246,7 +246,7 @@ a {
   display: none;
   margin-left: 7%;
   margin-bottom: 7%;
-  background: url('http://127.0.0.1:8887/img/spikes.png');
+  background: url('https://robinwilde.github.io/snpcuts/img/spikes.png');
   background-size: auto 100%;
   background-attachment: fixed;
   background-repeat: repeat;
