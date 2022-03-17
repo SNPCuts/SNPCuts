@@ -14,7 +14,7 @@ function generateGraphic() {
 
   html2canvas(document.querySelector("#infoBox"), {
     useCORS:true,
-    proxy: 'https://snpcuts.github.io',
+    proxy: 'https://robinwilde.github.io/snpcuts/',
     windowWidth: infoBox.width,
     width: infoBox.width,
     windowHeight: infoBox.height,
