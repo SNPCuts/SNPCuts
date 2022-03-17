@@ -91,6 +91,9 @@ function getCouncilName(postcode) {
       if(data.status != 200) {
         error.innerHTML = "Sorry, looks like that's an invalid postcode."
         error.style.display = "block";
+      } else if (data.country != "Scotland") {
+        error.innerHTML = "Sorry, looks like that postcode isn't in Scotland."
+        error.style.display = "block";
       } else {
       let council = data.result.admin_district
       let councilString = council.toString();
