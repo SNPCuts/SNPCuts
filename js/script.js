@@ -63,7 +63,7 @@ form.addEventListener("submit", e => {
   let postcode = formData.get("postcode")
 
   function printMessageToScreen(councilString){
-  fetch(`https://snpcuts.github.io/js/cuts.json`)
+  fetch(`https://robinwilde.github.io/snpcuts/js/cuts.json`)
       .then(res => res.json())
       .then(data => {
       console.log(data);
