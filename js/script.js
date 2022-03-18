@@ -14,7 +14,7 @@ function generateGraphic() {
 
   html2canvas(document.querySelector("#infoBox"), {
     useCORS:true,
-    proxy: 'https://robinwilde.github.io/snpcuts/',
+    proxy: 'https://snpcuts.github.io/snpcuts/',
     windowWidth: infoBox.width,
     width: infoBox.width,
     windowHeight: infoBox.height,
@@ -63,7 +63,7 @@ form.addEventListener("submit", e => {
   let postcode = formData.get("postcode")
 
   function printMessageToScreen(councilString){
-  fetch(`https://robinwilde.github.io/snpcuts/js/cuts.json`)
+  fetch(`https://snpcuts.github.io/snpcuts/js/cuts.json`)
       .then(res => res.json())
       .then(data => {
       console.log(data);
