@@ -137,6 +137,38 @@ body {
   background-repeat: repeat;
 }
 
+@media only screen and (min-width: 800px) {
+  input {
+    font-family: "interstate",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border: 3px solid #ed4545;
+    padding: 12px;
+    font-size: 24px;
+    width: 60%;
+    color: #ed4545;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  input {
+    font-family: "interstate",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border: 3px solid #ed4545;
+    padding: 12px;
+    font-size: 24px;
+    width: 100%;
+    color: #ed4545;
+  }
+}
+
 @media only screen and (min-width: 1460px) {
   body {
     background: url('https://snpcuts.github.io/SNPCuts/img/spikes.png');
@@ -189,20 +221,6 @@ h2 { font-family: "interstate",sans-serif; font-weight: 700; font-style: normal;
 
 #postcode {
 
-}
-
-input {
-  font-family: "interstate",sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  border: none;
-  margin-bottom: 2%;
-  margin-top: 1%;
-  border: 3px solid #ed4545;
-  padding: 12px;
-  font-size: 24px;
-  width: 60%;
-  color: #ed4545;
 }
 
 label { font-family: "interstate",sans-serif;
