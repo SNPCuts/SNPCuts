@@ -92,6 +92,10 @@ src:url("https://use.typekit.net/af/4d9382/00000000000000003b9ae80e/27/l?primer=
 font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .tk-gooddog-new { font-family: "gooddog-new",sans-serif; }
 .tk-interstate { font-family: "interstate",sans-serif; }
 .tk-interstate-compressed { font-family: "interstate-compressed",sans-serif; }
@@ -112,13 +116,13 @@ font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
   color: #ffffff;
   font-size: 16px;
   position: fixed;
-  bottom: -2%;
-  left: 0px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
   text-align: center;
   background-color: #101d44;
   padding: 10px;
   width: 100%;
-  height: 3%;
   overflow: hidden;
 }
 
@@ -135,6 +139,7 @@ body {
   background-size: auto 100%;
   background-attachment: fixed;
   background-repeat: repeat;
+  margin-bottom: 90px; /* prevent overlapping disclaimer */
 }
 
 @media only screen and (min-width: 1000px) {
@@ -207,7 +212,7 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   margin: 2%;
-  width: 600px;
+  max-width: 600px;
 }
 
 #splash h1 { font-family: "interstate",sans-serif; font-weight: 700; font-size: 60px; line-height: 1;}
@@ -278,7 +283,7 @@ a {
   font-size: 36px;
   color: ##ffffff;
   border: 3px solid #ed4545;
-  min-width: 600px;
+  /* min-width: 600px; */
   max-width: 900px;
 }
 
@@ -320,8 +325,14 @@ a {
   font-family: "gooddog-new",sans-serif;
   color: #101d44;
   text-align: center;
-  font-size: 150px;
-  background-color: 0;
+  font-size: 5rem;
+  word-wrap: break-word;
+}
+
+@media screen and (min-width: 600px) {
+  #outcome h1{
+    font-size: 10rem;
+  }
 }
 
 .bolded {
@@ -338,7 +349,6 @@ th, td {
 
 #graphicButton {
   width: 100%;
-  min-width: 600px;
 }
 
 #graphicButton { font-family: "interstate",sans-serif;

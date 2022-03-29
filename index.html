@@ -1,7 +1,10 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta charset="utf-8">
   <title>Check the SNP's Council Cuts in your area</title>
   <meta name="description" content="Find out how much the SNP's cuts have cost your community">
@@ -18,7 +21,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Check the SNP's Council Cuts in your area.">
   <meta name="twitter:description" content="Find out how much the SNP's cuts have cost your community">
-  <meta name="twitter:image" content="https://snpcuts.github.io/snpcuts/img/sharer.png"></meta>
+  <meta name="twitter:image" content="https://snpcuts.github.io/snpcuts/img/sharer.png">
+  </meta>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,66 +38,81 @@
   <!-- Favicon -->
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Q327LYRM3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Q327LYRM3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-2Q327LYRM3');
-</script>
+    gtag('config', 'G-2Q327LYRM3');
+  </script>
 
-<script src="js/html2canvas.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="js/html2canvas.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 
 </head>
+
 <body>
 
-<div id="container">
+  <div id="container">
 
-  <div id="infoBox">
-    <div id="infoHeading">
-      <h1>Since 2013, the SNP has cut</h1>
-    </div>
-    <div id="outcome">
-      <h1>£<span id="outcomeFigure"></span>m</h1>
-    </div>
-    <div id="infoFooter">
-      <h1>from the local council in <span id="councilName"></span></h1>
-      <h2>(while the SNP Government budget has had a record increase)</h2>
-    </div>
-    <div id="graphicBox">
-      <button name="graphic button" id="graphicButton" data-html2canvas-ignore="true">Download as Graphic</button>
-      <a id="resetLink" data-html2canvas-ignore="true" onClick="window.location.reload();" href="#">Search Again</a>
-    </div>
-    <div id="graphicOutput"></div>
-  </div>
-
-  <div id="splash">
-    <h1>The SNP has cut every council in Scotland</h1>
-    <h2>Even as their own budget has increased, the Scottish Government has carried out £250m in local cuts. Enter your postcode to see the impact in your area.</h2>
-
-  <div id="form">
-    <form name="postcode" id="postcode">
-      <p id="error"></p>
-      <div class="flex-container" id="socials">
-        <a id="fbLink" href="#" target="_blank"><div id="fbButton">Share on Facebook</div></a>
-        <a id="twtLink" href="#" target="_blank"><div id="twtButton">Share on Twitter</div></a>
-        <a id="waLink" href="#" target="_blank"><div id="waButton">Share on WhatsApp</div></a>
+    <div id="infoBox">
+      <div id="infoHeading">
+        <h1>Since 2013, the SNP has cut</h1>
       </div>
-      <label for="postcode">Your Postcode</label><br />
-      <input type="text" name="postcode" minlength="5" maxlength="8" required ><a href="#localData"><button name="submit" type="submit" id="button" form="postcode" value="Submit">Submit</button></a>
-    </form>
-    <h1 id="loading">Loading...</h1>
+      <div id="outcome">
+        <h1>£<span id="outcomeFigure"></span>m</h1>
+      </div>
+      <div id="infoFooter">
+        <h1>from the local council in <span id="councilName"></span></h1>
+        <h2>(while the SNP Government budget has had a record increase)</h2>
+      </div>
+      <div id="graphicBox">
+        <button name="graphic button" id="graphicButton" data-html2canvas-ignore="true">Download as Graphic</button>
+        <a id="resetLink" data-html2canvas-ignore="true" onClick="window.location.reload();" href="#">Search Again</a>
+      </div>
+      <div id="graphicOutput"></div>
+    </div>
+
+    <div id="splash">
+      <h1>The SNP has cut every council in Scotland</h1>
+      <h2>Even as their own budget has increased, the Scottish Government has carried out £250m in local cuts. Enter
+        your postcode to see the impact in your area.</h2>
+
+      <div id="form">
+        <form name="postcode" id="postcode">
+          <p id="error"></p>
+          <div class="flex-container" id="socials">
+            <a id="fbLink" href="#" target="_blank">
+              <div id="fbButton">Share on Facebook</div>
+            </a>
+            <a id="twtLink" href="#" target="_blank">
+              <div id="twtButton">Share on Twitter</div>
+            </a>
+            <a id="waLink" href="#" target="_blank">
+              <div id="waButton">Share on WhatsApp</div>
+            </a>
+          </div>
+
+          <label for="postcode">Your Postcode</label><br />
+          <input type="text" name="postcode" minlength="5" maxlength="8" id="postcode" required />
+
+          <a href="#localData">
+            <button name="submit" type="submit" id="button" form="postcode" value="Submit">Submit</button>
+          </a>
+        </form>
+        <h1 id="loading">Loading...</h1>
+      </div>
+    </div>
+
+
   </div>
-  </div>
 
+  <p id="disclaimer">Total revenue allocations - figures from provisional Local Government Finance Circulars in real
+    terms (2022-23 prices).</p>
 
-</div>
-
-<p id="disclaimer">Total revenue allocations - figures from provisional Local Government Finance Circulars in real terms (2022-23 prices).</p>
-
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
