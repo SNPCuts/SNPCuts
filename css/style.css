@@ -326,7 +326,7 @@ a {
   color: #101d44;
   text-align: center;
   font-size: 5rem;
-  word-wrap: break-word;
+  overflow: visible;
 }
 
 @media screen and (min-width: 600px) {
