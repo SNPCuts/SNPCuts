@@ -109,6 +109,10 @@ function getCouncilName(postcode) {
         councilString = "the Scottish Borders";
       } else if (councilString == "Highland") {
         councilString = "the Highlands";
+      } else if (councilString == "Orkney Islands") {
+        councilString = "Orkney";
+      } else if (councilString == "Shetland Islands") {
+        councilString = "Shetland";
       }
       printMessageToScreen(councilString)
       }
