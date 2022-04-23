@@ -2,193 +2,193 @@
   "Aberdeen": {
     "original": 385,
     "now": 362,
-    "totalCut": 23,
+    "totalCut": 161,
     "population": 227560
   },
   "Aberdeenshire": {
     "original": 478,
     "now": 466,
-    "totalCut": 12,
+    "totalCut": 131,
     "population": 261470
   },
   "Angus": {
     "original": 238,
     "now": 223,
-    "totalCut": 15,
+    "totalCut": 118,
     "population": 116040
   },
   "Argyll and Bute": {
     "original": 246,
     "now": 208,
-    "totalCut": 38,
+    "totalCut": 244,
     "population": 86260
   },
   "Clackmannanshire": {
     "original": 112,
     "now": 102,
-    "totalCut": 10,
+    "totalCut": 62,
     "population": 51400
   },
   "Dumfries and Galloway": {
     "original": 346,
     "now": 311,
-    "totalCut": 35,
+    "totalCut": 247,
     "population": 148790
   },
   "Dundee": {
     "original": 343,
     "now": 315,
-    "totalCut": 28,
+    "totalCut": 302,
     "population": 148750
   },
   "East Ayrshire": {
     "original": 266,
     "now": 250,
-    "totalCut": 16,
+    "totalCut": 131,
     "population": 121840
   },
   "East Dunbartonshire": {
     "original": 213,
     "now": 205,
-    "totalCut": 8,
+    "totalCut": 70,
     "population": 108330
   },
   "East Lothian": {
     "original": 199,
     "now": 190,
-    "totalCut": 9,
+    "totalCut": 78,
     "population": 105790
   },
   "East Renfrewshire": {
     "original": 206,
     "now": 196,
-    "totalCut": 11,
+    "totalCut": 72,
     "population": 95170
   },
   "Edinburgh": {
     "original": 879,
     "now": 816,
-    "totalCut": 63,
+    "totalCut": 631,
     "population": 518500
   },
   "Na h-Eileanan Siar": {
     "original": 124,
     "now": 99,
-    "totalCut": 24,
+    "totalCut": 151,
     "population": 26830
   },
   "Falkirk": {
     "original": 326,
     "now": 305,
-    "totalCut": 21,
+    "totalCut": 153,
     "population": 160340
   },
   "Fife": {
     "original": 745,
     "now": 708,
-    "totalCut": 37,
+    "totalCut": 335,
     "population": 371910
   },
   "Glasgow": {
     "original": "1,490.00",
     "now": "1,308.00",
-    "totalCut": 182,
+    "totalCut": 1141,
     "population": 626410
   },
   "the Highlands": {
     "original": 536,
     "now": 491,
-    "totalCut": 45,
+    "totalCut": 336,
     "population": 235540
   },
   "Inverclyde": {
     "original": 198,
     "now": 177,
-    "totalCut": 22,
+    "totalCut": 143,
     "population": 78150
   },
   "Midlothian": {
     "original": 178,
     "now": 175,
-    "totalCut": 3,
+    "totalCut": 42,
     "population": 91340
   },
   "Moray": {
     "original": 182,
     "now": 177,
-    "totalCut": 5,
+    "totalCut": 52,
     "population": 95520
   },
   "North Ayrshire": {
     "original": 316,
     "now": 294,
-    "totalCut": 21,
+    "totalCut": 138,
     "population": 135280
   },
   "North Lanarkshire": {
     "original": 737,
     "now": 670,
-    "totalCut": 67,
+    "totalCut": 502,
     "population": 340180
   },
   "Orkney": {
     "original": 82,
     "now": 68,
-    "totalCut": 13,
+    "totalCut": 51,
     "population": 22190
   },
   "Perth and Kinross": {
     "original": 291,
     "now": 278,
-    "totalCut": 13,
+    "totalCut": 123,
     "population": 151290
   },
   "Renfrewshire": {
     "original": 367,
     "now": 340,
-    "totalCut": 27,
+    "totalCut": 217,
     "population": 177790
   },
   "the Scottish Borders": {
     "original": 244,
     "now": 228,
-    "totalCut": 16,
+    "totalCut": 128,
     "population": 115270
   },
   "Shetland": {
     "original": 104,
     "now": 78,
-    "totalCut": 26,
+    "totalCut": 124,
     "population": 22990
   },
   "South Ayrshire": {
     "original": 237,
     "now": 222,
-    "totalCut": 15,
+    "totalCut": 121,
     "population": 112550
   },
   "South Lanarkshire": {
     "original": 667,
     "now": 609,
-    "totalCut": 58,
+    "totalCut": 411,
     "population": 319020
   },
   "Stirling": {
     "original": 195,
     "now": 184,
-    "totalCut": 11,
+    "totalCut": 89,
     "population": 94330
   },
   "West Dunbartonshire": {
     "original": 224,
     "now": 200,
-    "totalCut": 24,
+    "totalCut": 158,
     "population": 89130
   },
   "West Lothian": {
     "original": 358,
     "now": 345,
-    "totalCut": 13,
+    "totalCut": 124,
     "population": 182140
   }
 }
