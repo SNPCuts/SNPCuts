@@ -353,6 +353,7 @@ th, td {
 
 #graphicButton {
   width: 100%;
+  cursor: pointer;
 }
 
 #graphicButton { font-family: "interstate",sans-serif;
