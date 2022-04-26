@@ -323,6 +323,7 @@ a {
 
 #outcome {
   overflow: visible;
+  overflow-wrap: normal;
 }
 
 #outcome h1 {
@@ -331,11 +332,18 @@ a {
   text-align: center;
   font-size: 5rem;
   overflow: visible;
+  overflow-wrap: normal;
 }
 
 @media screen and (min-width: 600px) {
   #outcome h1{
     font-size: 10rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #outcome h1{
+    font-size: 7rem;
   }
 }
 
