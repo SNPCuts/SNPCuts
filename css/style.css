@@ -342,7 +342,7 @@ a {
 }
 
 @media screen and (max-width: 400px) {
-  #outcome h1{
+  #outcome {
     font-size: 7rem;
   }
 }
